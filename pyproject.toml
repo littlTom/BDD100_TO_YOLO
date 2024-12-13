@@ -11,10 +11,10 @@ dependencies = [
 ]
 requires-python = ">=3"
 authors = [
-  {name = "Morning Zhou", email = "Morning.ML.Zhou@outlook.com "}
+  {name = "Tom", email = "xiaoTomlihail@163.com"}
 ]
 maintainers = [
-  {name = "Morning Zhou", email = "Morning.ML.Zhou@outlook.com "}
+  {name = "Tom", email = "xiaoTomlihail@163.com"}
 ]
 description = "Invert BDD100 dataset to YOLO dataset"
 readme = "README.md"
