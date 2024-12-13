@@ -2,7 +2,7 @@
 ## Introduction
 Invert bdd100 dataset to yolo dataset and fix dataset
 ## Preparation
-Use pip to install the ./dist/bdd100_to_yolo-1.0.0-py3-none-any.whl into your python .venv
+pip install bdd100-to-yolo==0.0.1
 ## Example
 <pre><code>#import modules
 from bdd100_to_yolo import bdd100_to_yolo
