@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/bdd100_to_yolo/bdd100_to_yolo.py
+src/bdd100_to_yolo.egg-info/PKG-INFO
+src/bdd100_to_yolo.egg-info/SOURCES.txt
+src/bdd100_to_yolo.egg-info/dependency_links.txt
+src/bdd100_to_yolo.egg-info/requires.txt
+src/bdd100_to_yolo.egg-info/top_level.txt

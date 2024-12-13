@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bdd100_to_yolo"
+version = "1.0.0"
+dependencies = [
+  "tqdm",
+  "opencv-python",
+]
+requires-python = ">=3"
+authors = [
+  {name = "Morning Zhou", email = "Morning.ML.Zhou@outlook.com "}
+]
+maintainers = [
+  {name = "Morning Zhou", email = "Morning.ML.Zhou@outlook.com "}
+]
+description = "Invert BDD100 dataset to YOLO dataset"
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["BDD100 to YOLO", "BDD100", "YOLO", "dataset", "dataset invert", "dataset fix"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python"
+]
+
+[project.urls]
+Repository = "https://github.com/littlTom/bdd100_to_yolo.git"
