@@ -26,14 +26,23 @@ labels_val_save_path = "bdd100/labels/val"
 
 classes = [
     "pedestrian",  
+    
     # "rider",
+    
     "car",
+    
     "truck",
+    
     "bus",
+    
     # "train",
+    
     "motorcycle",
+    
     "bicycle",
+    
     "traffic light",
+    
     "traffic sign"
 ]
 
