@@ -4,8 +4,7 @@ Invert bdd100 dataset to yolo dataset and fix dataset
 ## Preparation
 Use pip to install the ./dist/bdd100_to_yolo-1.0.0-py3-none-any.whl into your python .venv
 ## Example
-<pre><code>
-#import modules
+<pre><code>#import modules
 from bdd100_to_yolo import bdd100_to_yolo
 
 #BD100k original image file path, BD100k original label file path and the path saving inverted label files
@@ -36,5 +35,4 @@ bdd100_to_yolo.dataset_invert(images_val_path, labels_val_path, labels_val_save_
 
 #Some image files do not have corresponding label files or some label files do not have corresponding image files, so it is necessary to clear the invalid data. Warning that you must run the dataset_invert() to invert all dbb100 json files to yolo txt file then running the dataset_fix(). BDD100K has 10 000 images so it may take 1 - 3 hours to fix the dataset.
 bdd100_to_yolo.dataset_fix(images_train_path, labels_train_save_path)
-bdd100_to_yolo.dataset_fix(images_val_path, labels_val_save_path)
-</code></pre>
+bdd100_to_yolo.dataset_fix(images_val_path, labels_val_save_path)</code></pre>
