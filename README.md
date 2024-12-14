@@ -24,7 +24,7 @@ classes = [
     # "rider",
     "car",
     "truck",
-    "bus",
+    #"bus",
     # "train",
     "motorcycle",
     "bicycle",

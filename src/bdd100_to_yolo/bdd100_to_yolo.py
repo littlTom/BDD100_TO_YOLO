@@ -18,7 +18,7 @@ def dataset_invert(image_path, label_path, label_save_path, label_type):
            else:
                name = obj['name']
                img = cv2.imread(image_path + '/' + name)
-               # some label files may not have corresponding image files
+               # some invalid label may not have corresponding image files
                if img is not None:
                    txt = os.path.splitext(name)[0] + ".txt"
                    width, height = img.shape[1], img.shape[0]
