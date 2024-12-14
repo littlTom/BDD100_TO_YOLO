@@ -37,7 +37,7 @@ bdd100_to_yolo.dataset_invert(images_train_path, labels_train_path, labels_train
 bdd100_to_yolo.dataset_invert(images_val_path, labels_val_path, labels_val_save_path, classes)
 
 '''
-Some image files may not have corresponding label files or some label files may not have corresponding image files, 
+Some image files may not have corresponding label files, 
 so it is necessary to clear the invalid data. 
 Warning that you must invert all dbb100 json files to yolo txt file at first and then fixing the dataset. 
 BDD100K has 10 000 images so it may take 1 - 3 hours to fix the dataset.
