@@ -18,19 +18,19 @@ def dataset_invert(image_path, label_path, label_save_path, label_type):
            else:
                name = obj['name']
                img = cv2.imread(image_path + '/' + name)
-               # some invalid label may not have corresponding image files
                if img is not None:
                    txt = os.path.splitext(name)[0] + ".txt"
                    width, height = img.shape[1], img.shape[0]
                    dw = 1.0 / width
                    dh = 1.0 / height
                    for label in obj['labels']:
-                       n = -1
+                       n = 0
                        for c in label_type:
-                           n += 1
-                           if label['category'] == c:
+                           if label['category'] != c:
+                               n += 1
+                           else:
                                break
-                       if n == -1:
+                       if n == len(label_type):
                            with open(label_save_path + '/' + txt, 'a+') as fw:
                                fw.write('')
                        else:
